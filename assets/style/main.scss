@@ -1,6 +1,37 @@
+@import "./import/variables.scss";
+
 * {
   font-family: "Manrope", sans-serif;
-  background-color: aqua;
   margin: 0;
   padding: 0;
+}
+
+/**
+* Main card
+*/
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: $darkBlue;
+  justify-content: center;
+  align-items: center;
+
+  #container {
+    width: 20rem;
+    height: 20rem;
+    background-color: $darkGrayishBlue;
+    border-radius: 10px;
+  }
+
+  &__titleSection {
+    background-color: $darkGrayishBlue;
+    color: $neonGreen;
+  }
+
+  &__adviceSection {
+    background-color: $darkGrayishBlue;
+    color: $lightCyan;
+  }
 }

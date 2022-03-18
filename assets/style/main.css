@@ -1,8 +1,36 @@
+/**
+* Variables
+*/
 * {
   font-family: "Manrope", sans-serif;
-  background-color: aqua;
   margin: 0;
   padding: 0;
+}
+
+/**
+* Main card
+*/
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #1f2632;
+  justify-content: center;
+  align-items: center;
+}
+.main #container {
+  width: 20rem;
+  height: 20rem;
+  background-color: #323a49;
+  border-radius: 10px;
+}
+.main__titleSection {
+  background-color: #323a49;
+  color: #52ffa8;
+}
+.main__adviceSection {
+  background-color: #323a49;
+  color: #cee3e9;
 }
 
 /*# sourceMappingURL=main.css.map */
