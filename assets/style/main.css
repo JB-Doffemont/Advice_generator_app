@@ -19,18 +19,56 @@
   align-items: center;
 }
 .main #container {
-  width: 20rem;
-  height: 20rem;
+  width: 22rem;
+  height: 23rem;
   background-color: #323a49;
   border-radius: 10px;
 }
 .main__titleSection {
   background-color: #323a49;
   color: #52ffa8;
+  position: relative;
+  top: 3rem;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+.main__titleSectionHeader {
+  font-size: small;
 }
 .main__adviceSection {
   background-color: #323a49;
   color: #cee3e9;
+  font-size: 28px;
+  font-weight: 800;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  text-align: center;
+  height: 12rem;
+  overflow-y: auto;
+}
+.main__btnSection {
+  background-color: #52ffa8;
+  position: relative;
+  top: 6.5rem;
+  border-radius: 6rem;
+  width: 4rem;
+  height: 4rem;
+  text-anchor: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.main ::-webkit-scrollbar {
+  width: 2px;
+}
+.main ::-webkit-scrollbar-thumb {
+  background: #52ffa8;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
