@@ -73,8 +73,12 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-  }
+    cursor: pointer;
 
+    &:hover {
+      box-shadow: 0px 0px 50px #52ffa8;
+    }
+  }
   ::-webkit-scrollbar {
     width: 2px;
   }

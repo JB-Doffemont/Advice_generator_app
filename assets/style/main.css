@@ -68,6 +68,10 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+  cursor: pointer;
+}
+.main__btnSection:hover {
+  box-shadow: 0px 0px 50px #52ffa8;
 }
 .main ::-webkit-scrollbar {
   width: 2px;
