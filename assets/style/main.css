@@ -42,13 +42,19 @@
   font-weight: 800;
   position: relative;
   top: 4rem;
-  left: 2rem;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   width: 80%;
   text-align: center;
+  justify-content: center;
   height: 12rem;
   overflow-y: auto;
+}
+.main__adviceSectionDivider {
+  text-align: center;
+  position: relative;
+  top: 5rem;
 }
 .main__btnSection {
   background-color: #52ffa8;
@@ -69,6 +75,22 @@
 .main ::-webkit-scrollbar-thumb {
   background: #52ffa8;
   border-radius: 10px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .main #container {
+    width: 30rem;
+    height: 20rem;
+  }
+  .main__adviceSection {
+    height: 9rem;
+  }
+  .main__adviceSectionDivider {
+    top: 5rem;
+  }
+  .main__btnSection {
+    top: 6.5rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -45,13 +45,20 @@
     font-weight: 800;
     position: relative;
     top: 4rem;
-    left: 2rem;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
     text-align: center;
+    justify-content: center;
     height: 12rem;
     overflow-y: auto;
+  }
+
+  &__adviceSectionDivider {
+    text-align: center;
+    position: relative;
+    top: 5rem;
   }
 
   &__btnSection {
@@ -75,5 +82,26 @@
   ::-webkit-scrollbar-thumb {
     background: $neonGreen;
     border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .main {
+    #container {
+      width: 30rem;
+      height: 20rem;
+    }
+
+    &__adviceSection {
+      height: 9rem;
+    }
+
+    &__adviceSectionDivider {
+      top: 5rem;
+    }
+
+    &__btnSection {
+      top: 6.5rem;
+    }
   }
 }
