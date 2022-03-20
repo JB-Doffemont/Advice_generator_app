@@ -69,9 +69,11 @@
   align-items: center;
   margin: auto;
   cursor: pointer;
+  transition: transform 2s;
 }
 .main__btnSection:hover {
   box-shadow: 0px 0px 50px #52ffa8;
+  transform: rotate(180deg);
 }
 .main ::-webkit-scrollbar {
   width: 2px;
