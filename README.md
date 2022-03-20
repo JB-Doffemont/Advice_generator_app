@@ -1,6 +1,5 @@
 # Frontend Mentor - Advice generator app solution
 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -10,8 +9,6 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-
-
 
 ## Overview
 
@@ -23,19 +20,15 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
-
 ### Screenshot
 
-![Desktop_design](./assets/images/screenshots/desktop_design.png)
+![Desktop_design](./images/screenshots/desktop_design.png)
 
-![Mobile_design](./assets/images/screenshots/mobile_design.png)
-
+![Mobile_design](./images/screenshots/mobile_design.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Live Site URL: [Click here](https://advice-generator-app-xi.vercel.app/)
 
 ### Built with
 
@@ -44,7 +37,6 @@ Users should be able to:
 - Mobile-first workflow
 - Javascript
 - Sass
-
 
 ### What I learned
 
@@ -55,5 +47,3 @@ Users should be able to:
 
 - Website - [JB Doffémont](https://github.com/JB-Doffemont)
 - Frontend Mentor - [@JB-Doffemont](https://www.frontendmentor.io/profile/JB-Doffemont)
- 
-
